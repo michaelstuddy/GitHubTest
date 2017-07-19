@@ -14,6 +14,7 @@
 		B070EF2F1F1D8F5400C27DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B070EF2D1F1D8F5400C27DE9 /* LaunchScreen.storyboard */; };
 		B070EF3A1F1D8F5500C27DE9 /* GITHUBTESTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B070EF391F1D8F5500C27DE9 /* GITHUBTESTTests.swift */; };
 		B070EF451F1D8F5500C27DE9 /* GITHUBTESTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B070EF441F1D8F5500C27DE9 /* GITHUBTESTUITests.swift */; };
+		B070EF531F1EFDBA00C27DE9 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B070EF521F1EFDBA00C27DE9 /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B070EF211F1D8F5400C27DE9 /* GITHUBTEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GITHUBTEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B070EF211F1D8F5400C27DE9 /* EmojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B070EF241F1D8F5400C27DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B070EF261F1D8F5400C27DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B070EF291F1D8F5400C27DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B070EF2B1F1D8F5400C27DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B070EF2E1F1D8F5400C27DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B070EF301F1D8F5400C27DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B070EF351F1D8F5500C27DE9 /* GITHUBTESTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GITHUBTESTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B070EF351F1D8F5500C27DE9 /* EmojiDictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiDictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B070EF391F1D8F5500C27DE9 /* GITHUBTESTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GITHUBTESTTests.swift; sourceTree = "<group>"; };
 		B070EF3B1F1D8F5500C27DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B070EF401F1D8F5500C27DE9 /* GITHUBTESTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GITHUBTESTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B070EF401F1D8F5500C27DE9 /* EmojiDictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiDictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B070EF441F1D8F5500C27DE9 /* GITHUBTESTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GITHUBTESTUITests.swift; sourceTree = "<group>"; };
 		B070EF461F1D8F5500C27DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B070EF521F1EFDBA00C27DE9 /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +89,9 @@
 		B070EF221F1D8F5400C27DE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B070EF211F1D8F5400C27DE9 /* GITHUBTEST.app */,
-				B070EF351F1D8F5500C27DE9 /* GITHUBTESTTests.xctest */,
-				B070EF401F1D8F5500C27DE9 /* GITHUBTESTUITests.xctest */,
+				B070EF211F1D8F5400C27DE9 /* EmojiDictionary.app */,
+				B070EF351F1D8F5500C27DE9 /* EmojiDictionaryTests.xctest */,
+				B070EF401F1D8F5500C27DE9 /* EmojiDictionaryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +101,7 @@
 			children = (
 				B070EF241F1D8F5400C27DE9 /* AppDelegate.swift */,
 				B070EF261F1D8F5400C27DE9 /* ViewController.swift */,
+				B070EF521F1EFDBA00C27DE9 /* DefinitionViewController.swift */,
 				B070EF281F1D8F5400C27DE9 /* Main.storyboard */,
 				B070EF2B1F1D8F5400C27DE9 /* Assets.xcassets */,
 				B070EF2D1F1D8F5400C27DE9 /* LaunchScreen.storyboard */,
@@ -128,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B070EF201F1D8F5400C27DE9 /* GITHUBTEST */ = {
+		B070EF201F1D8F5400C27DE9 /* EmojiDictionary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B070EF491F1D8F5500C27DE9 /* Build configuration list for PBXNativeTarget "GITHUBTEST" */;
+			buildConfigurationList = B070EF491F1D8F5500C27DE9 /* Build configuration list for PBXNativeTarget "EmojiDictionary" */;
 			buildPhases = (
 				B070EF1D1F1D8F5400C27DE9 /* Sources */,
 				B070EF1E1F1D8F5400C27DE9 /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = GITHUBTEST;
+			name = EmojiDictionary;
 			productName = GITHUBTEST;
-			productReference = B070EF211F1D8F5400C27DE9 /* GITHUBTEST.app */;
+			productReference = B070EF211F1D8F5400C27DE9 /* EmojiDictionary.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B070EF341F1D8F5500C27DE9 /* GITHUBTESTTests */ = {
+		B070EF341F1D8F5500C27DE9 /* EmojiDictionaryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B070EF4C1F1D8F5500C27DE9 /* Build configuration list for PBXNativeTarget "GITHUBTESTTests" */;
+			buildConfigurationList = B070EF4C1F1D8F5500C27DE9 /* Build configuration list for PBXNativeTarget "EmojiDictionaryTests" */;
 			buildPhases = (
 				B070EF311F1D8F5500C27DE9 /* Sources */,
 				B070EF321F1D8F5500C27DE9 /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				B070EF371F1D8F5500C27DE9 /* PBXTargetDependency */,
 			);
-			name = GITHUBTESTTests;
+			name = EmojiDictionaryTests;
 			productName = GITHUBTESTTests;
-			productReference = B070EF351F1D8F5500C27DE9 /* GITHUBTESTTests.xctest */;
+			productReference = B070EF351F1D8F5500C27DE9 /* EmojiDictionaryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B070EF3F1F1D8F5500C27DE9 /* GITHUBTESTUITests */ = {
+		B070EF3F1F1D8F5500C27DE9 /* EmojiDictionaryUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B070EF4F1F1D8F5500C27DE9 /* Build configuration list for PBXNativeTarget "GITHUBTESTUITests" */;
+			buildConfigurationList = B070EF4F1F1D8F5500C27DE9 /* Build configuration list for PBXNativeTarget "EmojiDictionaryUITests" */;
 			buildPhases = (
 				B070EF3C1F1D8F5500C27DE9 /* Sources */,
 				B070EF3D1F1D8F5500C27DE9 /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				B070EF421F1D8F5500C27DE9 /* PBXTargetDependency */,
 			);
-			name = GITHUBTESTUITests;
+			name = EmojiDictionaryUITests;
 			productName = GITHUBTESTUITests;
-			productReference = B070EF401F1D8F5500C27DE9 /* GITHUBTESTUITests.xctest */;
+			productReference = B070EF401F1D8F5500C27DE9 /* EmojiDictionaryUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B070EF1C1F1D8F5400C27DE9 /* Build configuration list for PBXProject "GITHUBTEST" */;
+			buildConfigurationList = B070EF1C1F1D8F5400C27DE9 /* Build configuration list for PBXProject "EmojiDictionary" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B070EF201F1D8F5400C27DE9 /* GITHUBTEST */,
-				B070EF341F1D8F5500C27DE9 /* GITHUBTESTTests */,
-				B070EF3F1F1D8F5500C27DE9 /* GITHUBTESTUITests */,
+				B070EF201F1D8F5400C27DE9 /* EmojiDictionary */,
+				B070EF341F1D8F5500C27DE9 /* EmojiDictionaryTests */,
+				B070EF3F1F1D8F5500C27DE9 /* EmojiDictionaryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B070EF271F1D8F5400C27DE9 /* ViewController.swift in Sources */,
+				B070EF531F1EFDBA00C27DE9 /* DefinitionViewController.swift in Sources */,
 				B070EF251F1D8F5400C27DE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		B070EF371F1D8F5500C27DE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B070EF201F1D8F5400C27DE9 /* GITHUBTEST */;
+			target = B070EF201F1D8F5400C27DE9 /* EmojiDictionary */;
 			targetProxy = B070EF361F1D8F5500C27DE9 /* PBXContainerItemProxy */;
 		};
 		B070EF421F1D8F5500C27DE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B070EF201F1D8F5400C27DE9 /* GITHUBTEST */;
+			target = B070EF201F1D8F5400C27DE9 /* EmojiDictionary */;
 			targetProxy = B070EF411F1D8F5500C27DE9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,7 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mcluvinit.GITHUBTESTTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GITHUBTEST.app/GITHUBTEST";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojiDictionary.app/EmojiDictionary";
 			};
 			name = Debug;
 		};
@@ -458,7 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mcluvinit.GITHUBTESTTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GITHUBTEST.app/GITHUBTEST";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojiDictionary.app/EmojiDictionary";
 			};
 			name = Release;
 		};
@@ -491,7 +495,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B070EF1C1F1D8F5400C27DE9 /* Build configuration list for PBXProject "GITHUBTEST" */ = {
+		B070EF1C1F1D8F5400C27DE9 /* Build configuration list for PBXProject "EmojiDictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B070EF471F1D8F5500C27DE9 /* Debug */,
@@ -500,7 +504,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B070EF491F1D8F5500C27DE9 /* Build configuration list for PBXNativeTarget "GITHUBTEST" */ = {
+		B070EF491F1D8F5500C27DE9 /* Build configuration list for PBXNativeTarget "EmojiDictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B070EF4A1F1D8F5500C27DE9 /* Debug */,
@@ -508,7 +512,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		B070EF4C1F1D8F5500C27DE9 /* Build configuration list for PBXNativeTarget "GITHUBTESTTests" */ = {
+		B070EF4C1F1D8F5500C27DE9 /* Build configuration list for PBXNativeTarget "EmojiDictionaryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B070EF4D1F1D8F5500C27DE9 /* Debug */,
@@ -516,7 +520,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		B070EF4F1F1D8F5500C27DE9 /* Build configuration list for PBXNativeTarget "GITHUBTESTUITests" */ = {
+		B070EF4F1F1D8F5500C27DE9 /* Build configuration list for PBXNativeTarget "EmojiDictionaryUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B070EF501F1D8F5500C27DE9 /* Debug */,

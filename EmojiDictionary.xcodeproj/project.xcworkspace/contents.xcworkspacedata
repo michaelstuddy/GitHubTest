@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:GITHUBTEST.xcodeproj">
+      location = "self:/Users/michaelruddy/Desktop/xcodefiles/GITHUBTEST/EmojiDictionary.xcodeproj">
    </FileRef>
 </Workspace>

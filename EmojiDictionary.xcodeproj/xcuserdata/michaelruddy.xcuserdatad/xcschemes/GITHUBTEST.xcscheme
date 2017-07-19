@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B070EF201F1D8F5400C27DE9"
-               BuildableName = "GITHUBTEST.app"
-               BlueprintName = "GITHUBTEST"
-               ReferencedContainer = "container:GITHUBTEST.xcodeproj">
+               BuildableName = "EmojiDictionary.app"
+               BlueprintName = "EmojiDictionary"
+               ReferencedContainer = "container:EmojiDictionary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B070EF341F1D8F5500C27DE9"
-               BuildableName = "GITHUBTESTTests.xctest"
-               BlueprintName = "GITHUBTESTTests"
-               ReferencedContainer = "container:GITHUBTEST.xcodeproj">
+               BuildableName = "EmojiDictionaryTests.xctest"
+               BlueprintName = "EmojiDictionaryTests"
+               ReferencedContainer = "container:EmojiDictionary.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B070EF3F1F1D8F5500C27DE9"
-               BuildableName = "GITHUBTESTUITests.xctest"
-               BlueprintName = "GITHUBTESTUITests"
-               ReferencedContainer = "container:GITHUBTEST.xcodeproj">
+               BuildableName = "EmojiDictionaryUITests.xctest"
+               BlueprintName = "EmojiDictionaryUITests"
+               ReferencedContainer = "container:EmojiDictionary.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B070EF201F1D8F5400C27DE9"
-            BuildableName = "GITHUBTEST.app"
-            BlueprintName = "GITHUBTEST"
-            ReferencedContainer = "container:GITHUBTEST.xcodeproj">
+            BuildableName = "EmojiDictionary.app"
+            BlueprintName = "EmojiDictionary"
+            ReferencedContainer = "container:EmojiDictionary.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B070EF201F1D8F5400C27DE9"
-            BuildableName = "GITHUBTEST.app"
-            BlueprintName = "GITHUBTEST"
-            ReferencedContainer = "container:GITHUBTEST.xcodeproj">
+            BuildableName = "EmojiDictionary.app"
+            BlueprintName = "EmojiDictionary"
+            ReferencedContainer = "container:EmojiDictionary.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B070EF201F1D8F5400C27DE9"
-            BuildableName = "GITHUBTEST.app"
-            BlueprintName = "GITHUBTEST"
-            ReferencedContainer = "container:GITHUBTEST.xcodeproj">
+            BuildableName = "EmojiDictionary.app"
+            BlueprintName = "EmojiDictionary"
+            ReferencedContainer = "container:EmojiDictionary.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
